@@ -1,0 +1,10 @@
+<h1><%= @tag.name %></h1>
+
+<ul>
+  <% @tag.posts.each do |post| %>
+
+  <% end %>
+</ul>
+
+<%= link_to "Edit Tag", edit_post_tag_path(@tag.post, @tag) %>
+<%= link_to "Delete Tag", post_path(@tag.post), method: :delete %>

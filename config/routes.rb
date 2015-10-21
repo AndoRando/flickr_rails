@@ -3,5 +3,11 @@ Rails.application.routes.draw do
 
   root :to => 'posts#index'
 
-  resources :posts
+  resources :posts do
+    resources :tags, except: [:index]
+  end
+
+  resources :tags, except: [:index] do 
+    resources :posts
+  end
 end

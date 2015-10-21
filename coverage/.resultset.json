@@ -4,16 +4,16 @@
       "/Users/Guest/Desktop/flickr/spec/features/add_post_pages_spec.rb": [
         1,
         null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -457,6 +457,8 @@
         1,
         null,
         1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/flickr/app/models/user.rb": [
@@ -489,18 +491,37 @@
         null,
         null,
         1,
+        0,
+        null,
+        null,
         1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
         null,
         null,
         1,
         0,
         0,
         0,
-        0,
         null,
         0,
-        0,
         null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
         null,
         null,
         1,
@@ -513,8 +534,16 @@
         1,
         1,
         1,
+        1,
         null,
         1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/flickr/app/models/tag.rb": [
+        1,
+        1,
+        null,
         1,
         null
       ],
@@ -543,10 +572,18 @@
         2,
         null
       ],
+      "/Users/Guest/Desktop/flickr/spec/models/tag_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
       "/Users/Guest/Desktop/flickr/spec/models/user_spec.rb": [
         1
       ]
     },
-    "timestamp": 1445465014
+    "timestamp": 1445466784
   }
 }
