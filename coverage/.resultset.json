@@ -1,13 +1,20 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/flickr/spec/models/post_spec.rb": [
+      "/Users/Guest/Desktop/flickr/spec/features/add_post_pages_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
-        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
         null
       ],
       "/Users/Guest/Desktop/flickr/spec/rails_helper.rb": [
@@ -16,6 +23,9 @@
         null,
         1,
         1,
+        1,
+        1,
+        null,
         1,
         1,
         null,
@@ -445,6 +455,8 @@
         1,
         null,
         1,
+        null,
+        1,
         null
       ],
       "/Users/Guest/Desktop/flickr/app/models/user.rb": [
@@ -469,28 +481,72 @@
       "/Users/Guest/Desktop/flickr/app/controllers/posts_controller.rb": [
         1,
         1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
         null,
         null
       ],
       "/Users/Guest/Desktop/flickr/app/models/post.rb": [
         1,
         1,
+        1,
         null,
+        1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/flickr/spec/factories/users.rb": [
+      "/Users/Guest/Desktop/flickr/spec/factories.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
         1,
         1,
         null,
+        null
+      ],
+      "/Users/Guest/Desktop/flickr/spec/models/post_spec.rb": [
+        1,
         null,
-        null,
+        1,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/flickr/spec/models/user_spec.rb": [
         1
       ]
     },
-    "timestamp": 1445448590
+    "timestamp": 1445465014
   }
 }

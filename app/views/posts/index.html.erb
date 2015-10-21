@@ -1,7 +1,6 @@
 <h1>First Post Test</h1>
 
-<ul>
   <% @posts.each do |post| %>
-    <li><%= link_to post.image, post_path(post) %></li>
+    <h3><%= post.title %></h3>
+    <p><%= link_to image_tag(post.image), post_path(post) %></p>
   <% end %>
-</ul>
