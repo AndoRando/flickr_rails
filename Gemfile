@@ -9,7 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'paperclip', '~> 4.3'
+gem 'paperclip', git: 'git://github.com/thoughtbot/paperclip.git'
 
 group :development do
   gem 'byebug'
@@ -26,6 +26,8 @@ group :test, :development do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'simplecov', require: false
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :test do
@@ -34,4 +36,5 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'aws-sdk', '>= 2.0.0'
 end

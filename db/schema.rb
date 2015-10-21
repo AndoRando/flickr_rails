@@ -17,7 +17,11 @@ ActiveRecord::Schema.define(version: 20151021171822) do
   enable_extension "plpgsql"
 
   create_table "posts", force: :cascade do |t|
-    t.string   "image"
+    t.string   "title"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
     t.string   "caption"
     t.integer  "user_id"
     t.datetime "created_at"
