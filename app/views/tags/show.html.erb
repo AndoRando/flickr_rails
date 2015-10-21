@@ -2,9 +2,9 @@
 
 <ul>
   <% @tag.posts.each do |post| %>
-
+    <li><%= link_to post.title, post_path(post) %></li>
   <% end %>
 </ul>
 
-<%= link_to "Edit Tag", edit_post_tag_path(@tag.post, @tag) %>
-<%= link_to "Delete Tag", post_path(@tag.post), method: :delete %>
+<%= link_to "Edit Tag", edit_post_tag_path(@post, @tag) %>
+<%= link_to "Delete Tag", post_path(@post), method: :delete %>
